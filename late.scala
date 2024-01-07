@@ -1,12 +1,17 @@
 //ABC177_A late
 
 ##################################################
-import scala.io.StdIn.readLine
-
 object Main extends App {
-  val dts = readLine.split(' ').map(_.toInt)
-  if (dts(0) <= dts(1) * dts(2)) println("Yes")
-  else println("No")
+  val param = scala.io.StdIn.readLine.split(' ')
+  val D = param(0).toInt
+  val T = param(1).toInt
+  val S = param(2).toInt
+ 
+  if (D<=T*S ) {
+    println("Yes")
+  } else {
+    println("No")
+  }
 }
 ##################################################
 object Main extends App {
