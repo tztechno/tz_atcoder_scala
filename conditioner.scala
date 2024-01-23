@@ -21,8 +21,8 @@ object Main extends App {
 object Main extends App {
     val A = scala.io.StdIn.readLine().trim
     val X = A.toInt
-    val judge = (X >= 30).toInt
+    val judge = X >= 30
     val ANS = Array("No", "Yes")
-    println(ANS(judge))
+    println(ANS(if (judge) 1 else 0))
 }
 ####################################
