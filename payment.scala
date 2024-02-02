@@ -1,4 +1,4 @@
-//abc173_a payment.sca
+//abc173_a payment.scala
 ##############################
 import java.util.Scanner
 
