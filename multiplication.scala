@@ -1,4 +1,4 @@
-//abc169_a multiplication.sca
+//abc169_a multiplication.scala
 ################################
 ################################
 object Main extends App {
