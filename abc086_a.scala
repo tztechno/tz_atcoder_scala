@@ -4,10 +4,10 @@
 ################################
 object Main {
   def main(args: Array[String]): Unit = {
-    val sc = new java.util.Scanner(System.in) // ①
-    val a, b = sc.nextInt() // ②
+    val sc = new java.util.Scanner(System.in)
+    val a, b = sc.nextInt()
     val c = a * b
-    val ans = if (c % 2 == 0) "Even" else "Odd" // ③
+    val ans = if (c % 2 == 0) "Even" else "Odd"
     println(ans)
   }
 }
